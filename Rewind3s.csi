@@ -1,0 +1,17 @@
+[History]
+1=#P0#=mb	#P1#=RunScreenPainter	#P2#=Rewind3s/screenSamplerPainter/RunScreenPainter	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204215802	#P7#=0	#P8#=-2	.
+2=#P0#=mb	#P1#=RunScreenSampler	#P2#=Rewind3s/screenSamplerPainter/RunScreenSampler	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204215737	#P7#=0	#P8#=10	.
+3=#P0#=mb	#P1#=SamplerThreadProc	#P2#=Rewind3s/screenSamplerPainter/SamplerThreadProc	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204213348	#P7#=0	#P8#=14	.
+4=#P0#=mb	#P1#=RecordCurrentScreensBitmapDC	#P2#=Rewind3s/screenSamplerPainter/RecordCurrentScreensBitmapDC	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204213333	#P7#=0	#P8#=7	.
+5=#P0#=mb	#P1#=shortcutListenerTimer_Timer	#P2#=Rewind3s/mainForm/shortcutListenerTimer_Timer	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20211204162159	#P7#=0	#P8#=-2	.
+6=#P0#=mb	#P1#=Form_MouseUp	#P2#=Rewind3s/mainForm/Form_MouseUp	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20211204162144	#P7#=0	#P8#=-1	.
+7=#P0#=mb	#P1#=Form_Unload	#P2#=Rewind3s/mainForm/Form_Unload	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20211204162040	#P7#=0	#P8#=3	.
+8=#P0#=mb	#P1#=ShiftDCArrayLeft	#P2#=Rewind3s/screenSamplerPainter/ShiftDCArrayLeft	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204160915	#P7#=0	#P8#=7	.
+9=#P0#=mb	#P1#=PaintScreen	#P2#=Rewind3s/screenSamplerPainter/PaintScreen	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204160026	#P7#=0	#P8#=7	.
+10=#P0#=mb	#P1#=PainterThreadProc	#P2#=Rewind3s/screenSamplerPainter/PainterThreadProc	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204160011	#P7#=0	#P8#=9	.
+11=#P0#=mb	#P1#=StopScreenPainter	#P2#=Rewind3s/screenSamplerPainter/StopScreenPainter	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204151544	#P7#=0	#P8#=-2	.
+12=#P0#=mb	#P1#=ShowHistoryPicture	#P2#=Rewind3s/mainForm/ShowHistoryPicture	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204100714	#P7#=0	#P8#=3	.
+13=#P0#=mb	#P1#=ClearHistoryPicture	#P2#=Rewind3s/mainForm/ClearHistoryPicture	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20211204100709	#P7#=0	#P8#=1	.
+14=#P0#=mb	#P1#=Form_Load	#P2#=Rewind3s/mainForm/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20211204100519	#P7#=0	#P8#=0	.
+15=#P0#=mb	#P1#=menuHide_Click	#P2#=Rewind3s/mainForm/menuHide_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20211204100305	#P7#=0	#P8#=2	.
+16=#P0#=mb	#P1#=menuAbout_Click	#P2#=Rewind3s/mainForm/menuAbout_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20211203231549	#P7#=0	#P8#=-2	.
