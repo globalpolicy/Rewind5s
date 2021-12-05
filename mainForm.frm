@@ -71,6 +71,8 @@ Private Declare Function GetForegroundWindow Lib "USER32" () As Long
 
 Private Declare Sub ExitProcess Lib "kernel32.dll" (ByVal uExitCode As Long)
 
+Private Declare Function GetTickCount Lib "kernel32.dll" () As Long
+
 
 Private Const SW_MINIMIZE As Long = 6
 Private Const SW_NORMAL As Long = 1
@@ -82,6 +84,7 @@ Dim hwndForeground As Long
 Dim keyPressCounterJ As Integer
 Dim keyPressCounterK As Integer
 Dim keyPressCounterL As Integer
+Dim firstPressTime As Long
 
 Private Sub Form_Load()
     Call RunScreenSampler
@@ -120,29 +123,38 @@ Private Sub shortcutListenerTimer_Timer()
     
     If GetAsyncKeyState(key_J) = -32767 Then
         keyPressCounterJ = keyPressCounterJ + 1
+        If keyPressCounterJ = 1 Then firstPressTime = GetTickCount()
     End If
     
     If GetAsyncKeyState(key_K) = -32767 Then
         keyPressCounterK = keyPressCounterK + 1
+        If keyPressCounterK = 1 Then firstPressTime = GetTickCount()
     End If
     
     If GetAsyncKeyState(key_L) = -32767 Then
         keyPressCounterL = keyPressCounterL + 1
+        If keyPressCounterL = 1 Then firstPressTime = GetTickCount()
     End If
     
     If keyPressCounterJ = 2 Then
         keyPressCounterJ = 0
-        Call ShowHistoryPicture
+        If GetTickCount() - firstPressTime < 500 Then
+            Call ShowHistoryPicture
+        End If
     End If
     
     If keyPressCounterK = 2 Then
         keyPressCounterK = 0
-        Me.Show
+        If GetTickCount() - firstPressTime < 500 Then
+            Me.Show
+        End If
     End If
     
     If keyPressCounterL = 2 Then
         keyPressCounterL = 0
-        Call ClearHistoryPicture
+        If GetTickCount() - firstPressTime < 500 Then
+            Call ClearHistoryPicture
+        End If
     End If
 End Sub
 
